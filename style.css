@@ -1,0 +1,166 @@
+.wraper{
+	background: url(img/logo.jpg);
+	min-height:100vh;
+}
+
+body {
+	margin:0;
+	background-image: url("bg.png");
+}
+
+/* Меню */
+.menu {
+	list-style: none;
+	margin:0 auto;
+	padding: 0px;
+	width: 900px;
+	background-color:none;
+	text-align:center;
+	/* #9300f5 */
+}
+
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 5px 10px;
+	width: 150px;
+	transition:all 0.5s;
+	
+}
+
+.menu li {
+	display:inline-block; //в рядок
+	text-align:center;
+	font-family:Verdana
+}
+
+.menu a:hover {
+	background-color: #7207ba;
+	box-shadow: 0 0 10px black;
+}
+
+.menu a.active {
+	background-color: #55068a;
+	box-shadow: 0 0 10px black;
+}
+/* кінець меню */
+
+/* тексти */
+
+.t1 {
+	color:white;
+	font-family:Verdana;
+}
+
+.st1 {
+	color:white;
+	font-family:Verdana;
+}
+
+/* кнопка */
+.bt1 {
+	width: 140px;
+	height: 60px;
+	font-size: 20px;
+	background-color:transparent;
+	border-radius:10px;
+	transition: all 0.5s;
+}
+
+.bt1 a {
+	font-family:Verdana;
+	text-decoration:none;
+	color :#ffffff;
+}
+
+.bt1:hover {
+	background-color:white;
+}
+.bt1 a:hover {
+	color:#6b6b6b;
+}
+/* нема кнопки  */
+
+.img1 {
+	float:right;
+}
+
+.img2 {
+	float:;
+	transition: all 0.5s;
+}
+
+
+.img2:hover {
+	transform: scale(1.1);
+}
+
+.main {
+	width:800px;
+	margin: 0 auto;
+	padding-top:100px;
+}
+
+.tovars {
+    text-align:center;
+	padding-top:100px;
+}
+
+.pr {
+	color:#424242;
+	font-family:Verdana;
+}
+
+.op {
+	color:#333333;
+	font-family:Verdana;
+} 
+
+
+.list1 {
+    list-style:none;
+}
+
+.contaxs {
+	color:#ffffff;
+	font-family:Verdana;
+	margin-top: 60px;
+}
+
+.img3 {
+	width:180px;
+	height: 150px;
+}
+
+.header {
+   text-align:center;
+}
+
+
+.ta1 {
+	color:#bababa;
+	font-family:Verdana;
+	text-align:center;
+	margin:0 auto;
+}
+
+.ta1 td {
+	padding:5px;
+}
+
+.abaut {
+	text-align:center;
+}
+
+.main2 {
+	margin-top: 190px;
+	
+}
+
+.buy1 {
+	color:#08ff5e;
+	font-family:Verdana;
+    text-decoration: none;
+}
